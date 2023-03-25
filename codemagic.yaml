@@ -22,3 +22,10 @@ workflows:
       - build/**/outputs/**/*.aab
       - build/**/outputs/**/mapping.txt
       - flutter_drive.log
+
+    publishing:
+      email:
+        recipients:
+          - ben.kanku.barthelemy@gmail.com # enter your email id here
+          
+
